@@ -33,22 +33,27 @@
 }
 
 .infText{
-    overflow: hidden;
+    word-break: break-all;
     font-size: 1.5rem;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
 }
 
-.key{
+div.key{
     top: calc(50% - 10vh);
     left: calc(50% - 10vw);
 }
 
-.code{
+div.code{
     top: calc(25% - 10vh);
-    left: calc(25% - 10vw);
+    left: calc(30% - 10vw);
 }
 
-.keyCode{
-    top: calc(75% - 10vh);
-    left: calc(75% - 10vw);
+div.keyCode{
+    top: calc(25% - 10vh);
+    left: calc(70% - 10vw);
+}
+
+div.shiftKey{
+    top: calc(60% - 10vh);
+    left: calc(80% - 10vw);
 }
