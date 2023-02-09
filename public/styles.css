@@ -55,5 +55,10 @@ div.keyCode{
 
 div.shiftKey{
     top: calc(60% - 10vh);
-    left: calc(80% - 10vw);
+    left: calc(85% - 10vw);
+}
+
+div.ctrlKey{
+    top: calc(80% - 10vh);
+    left: calc(50% - 10vw);
 }
