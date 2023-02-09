@@ -3,3 +3,10 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
+.empty{
+    display: grid;
+    place-content: center;
+    width: 100vw;
+    height: 100vh;
+}
