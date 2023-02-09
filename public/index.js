@@ -5,6 +5,7 @@ let code = document.querySelector('.infText.code');
 let keyCode = document.querySelector('.infText.keyCode');
 let shiftKey = document.querySelector('.infText.shiftKey');
 let ctrlKey = document.querySelector('.infText.ctrlKey');
+let altKey = document.querySelector('.infText.altKey');
 
 document.addEventListener('keydown', (e) => {
     emptyText.classList.add('dispose');
@@ -14,4 +15,5 @@ document.addEventListener('keydown', (e) => {
     keyCode.innerHTML = e.keyCode;
     shiftKey.innerHTML = e.shiftKey;
     ctrlKey.innerHTML = e.ctrlKey;
+    altKey.innerHTML = e.altKey;
 });
