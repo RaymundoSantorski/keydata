@@ -3,6 +3,7 @@ let infoDiv = document.querySelector('div.info');
 let key = document.querySelector('.infText.key');
 let code = document.querySelector('.infText.code');
 let keyCode = document.querySelector('.infText.keyCode');
+let shiftKey = document.querySelector('.infText.shiftKey');
 
 
 document.addEventListener('keydown', (e) => {
@@ -11,4 +12,5 @@ document.addEventListener('keydown', (e) => {
     key.innerHTML = e.key;
     code.innerHTML = e.code;
     keyCode.innerHTML = e.keyCode;
+    shiftKey.innerHTML = e.shiftKey;
 });
