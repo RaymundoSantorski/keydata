@@ -14,6 +14,7 @@
 .info{
     width: 100vw;
     height: 100vh;
+    text-align: center;
 }
 
 .dispose{
@@ -32,7 +33,8 @@
 }
 
 .infText{
-    font-size: 24px;
+    overflow: hidden;
+    font-size: 1.5rem;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
 }
 
@@ -44,4 +46,9 @@
 .code{
     top: calc(25% - 10vh);
     left: calc(25% - 10vw);
+}
+
+.keyCode{
+    top: calc(75% - 10vh);
+    left: calc(75% - 10vw);
 }
