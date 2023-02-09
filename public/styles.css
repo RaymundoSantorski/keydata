@@ -62,3 +62,8 @@ div.ctrlKey{
     top: calc(80% - 10vh);
     left: calc(50% - 10vw);
 }
+
+div.altKey{
+    top: calc(60% - 10vh);
+    left: calc(15% - 10vw);
+}
