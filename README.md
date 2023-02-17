@@ -12,4 +12,6 @@
 
 - Contiene animaciones para saber cuando se ha presionado una tecla y que por lo tanto la información mostrada podría haber cambiado
 
+Puedes ver el resultado [aqui](https://raymundosantorski.github.io/keydata/).
+
 ![Imagen de muestra del resultado](./public/screenshot.png)
